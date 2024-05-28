@@ -6,9 +6,9 @@ metadata: # kpt-merge: kuard/kuard-dep
   labels:
     app: kuard
   annotations:
-    internal.kpt.dev/upstream-identifier: 'apps|Deployment|kuard|kuard-dep'
+    internal.kpt.dev/upstream-identifier: apps|Deployment|kuard|kuard-dep
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: kuard
